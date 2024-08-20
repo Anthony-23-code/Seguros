@@ -220,7 +220,7 @@
     <div class="login-container">
         <div class="login-box">
             <h2>Registro</h2>
-            <form onsubmit="validateForm(event)">
+            <form method="POST" action="forms/registro.php">
                 <div class="textbox">
                     <input type="text" id="nombres" name="nombres" required placeholder=" ">
                     <label for="nombres">Nombres</label>
@@ -281,6 +281,7 @@
                 </div>
                 <button type="submit" class="btn">Registrar</button>
             </form>
+            
         </div>
     </div>
 </body>
